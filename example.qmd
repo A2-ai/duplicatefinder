@@ -2,6 +2,28 @@
 title: "Duplicatefinder Example"
 filters:
     - duplicatefinder
+format:
+    pdf:
+        keep-tex: true
+        fig-pos: H
+        include-in-header:
+            text: |
+                \usepackage{fontspec}
+                \usepackage{multirow}
+                \usepackage{multicol}
+                \usepackage{colortbl}
+                \usepackage{hhline}
+                \newlength\Oldarrayrulewidth
+                \newlength\Oldtabcolsep
+                \usepackage{longtable}
+                \usepackage{array}
+                \usepackage{hyperref}
+                \usepackage{float}
+                \usepackage{wrapfig}
+                \usepackage{pdflscape}
+                \usepackage[]{threeparttable}
+                \usepackage[]{scrlayer-scrpage}
+            
 ---
 
 
@@ -20,10 +42,7 @@ as follows:
 
 ![A2ai](A2-Ai_Logo_150dpi.png){#fig-one}
 
-
 ![hello](run_sum_base.pdf){#fig-one}
-
-
 
 
 
