@@ -1,0 +1,30 @@
+---
+title: "Duplicatefinder Example"
+filters:
+    - duplicatefinder
+---
+
+
+# Conclusions {#sec-one}
+
+Hello. Quarto
+
+## Another
+
+Overall, the main conclusions of the analysis are 
+as follows:
+
+
+
+-Comparing @fig-one 
+
+![A2ai](A2-Ai_Logo_150dpi.png){#fig-one}
+
+
+![hello](run_sum_base.pdf){#fig-one}
+
+
+
+
+
+
