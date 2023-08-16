@@ -4,7 +4,6 @@ filters:
     - duplicatefinder
 format:
     pdf:
-        keep-tex: true
         fig-pos: H
         include-in-header:
             text: |
@@ -27,23 +26,51 @@ format:
 ---
 
 
-# Conclusions {#sec-one}
+# Conclusions
 
 Hello. Quarto
 
-## Another
+## Another 
 
 Overall, the main conclusions of the analysis are 
 as follows:
 
 
 
--Comparing @fig-one 
+![yo](A2-Ai_Logo_150dpi.png){#fig-one}
 
 ![A2ai](A2-Ai_Logo_150dpi.png){#fig-one}
 
-![hello](run_sum_base.pdf){#fig-one}
 
+![hello](demofile1.pdf){#fig-one}
+
+![whatsup](demofile1.pdf){#fig-one}
+
+
+```{=latex}
+\begin{table}[H]
+\begin{center}
+
+\caption{Continuous demographic covariate summary} 
+\label{one}
+\input{testtable.tex}
+
+\end{center}
+\end{table}
+```
+
+
+```{=latex}
+\begin{table}[H]
+\begin{center}
+
+\caption{Summary of base model runs} 
+\label{one}
+\input{testtable2.tex}
+
+\end{center}
+\end{table}
+```
 
 
 
