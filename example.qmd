@@ -37,14 +37,14 @@ as follows:
 
 
 
-![yo](A2-Ai_Logo_150dpi.png){#fig-one}
+![yo](testfiles/A2-Ai_Logo_150dpi.png){#fig-one}
 
-![A2ai](A2-Ai_Logo_150dpi.png){#fig-one}
+![A2ai](testfiles/A2-Ai_Logo_150dpi.png){#fig-one}
 
 
-![hello](demofile1.pdf){#fig-one}
+![hello](testfiles/demofile1.pdf){#fig-one}
 
-![whatsup](demofile1.pdf){#fig-one}
+![whatsup](testfiles/demofile1.pdf){#fig-one}
 
 
 ```{=latex}
@@ -53,7 +53,7 @@ as follows:
 
 \caption{Continuous demographic covariate summary} 
 \label{one}
-\input{testtable.tex}
+\input{testfiles/testtable.tex}
 
 \end{center}
 \end{table}
@@ -66,7 +66,7 @@ as follows:
 
 \caption{Summary of base model runs} 
 \label{one}
-\input{testtable2.tex}
+\input{testfiles/testtable2.tex}
 
 \end{center}
 \end{table}
