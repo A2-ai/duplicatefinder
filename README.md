@@ -13,7 +13,7 @@ If you're using version control, you will want to check in this directory.
 
 ## Using
 
-_TODO_: Describe how to use your extension.
+Render the Quarto doc or book as your normally would, if there are any duplicates they will print as an error statement in the R terminal.
 
 ## Example
 
