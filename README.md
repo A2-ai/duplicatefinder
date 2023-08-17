@@ -1,6 +1,6 @@
 # Duplicatefinder Extension For Quarto
 
-_TODO_: Add a short description of your extension.
+This is a Quarto filter that will search through the anchor ids for duplicates. It will then print an error statement in the terminal with the name of the duplicate and how many times the duplicate appears in the Quarto project. 
 
 ## Installing
 
